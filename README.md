@@ -1,2 +1,4 @@
-# cs519-sp23
-CS 519 course
+#### Coding and other resources for CS 519
+
+CS 519 Instructions
+------------------
