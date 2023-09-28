@@ -3,6 +3,9 @@
 This homework will consist of two parts: (1) using shared-memory for IPC, and
 (2) test your knowledge of caching. This is an individual homework.
 
+**CAUTION:** Copying code from online sources or automatic generation tools like
+ChatGPT, Bard, and others may result in strict penalties.
+
 ### Part 1 - IPC Shared Memory (50 points)
 In this part, you will implement a pipe-based and shared memory-based IPC
 communication between two processes. The "HW-1" folder contains (1) IPC-pipe.c
@@ -60,6 +63,15 @@ You must clearly show a graph that shows the core count (on the x-axis) and the
 performance on the y-axis (similar to the Linux scalability paper). If your
 solution does not scale beyond a certain core count, you must explain why.
 
+To improve scalability, you can use existing spin lock implementations. The
+repository below provides various spin lock implementations. Some of the spin
+lock implementations offer better performance. Try to understand which spin
+lock implementations provide better performance and why, and then make use of
+them! This is just a reference. You are welcome to consider other spin lock
+implementations.
+```
+https://github.com/cyfdecyf/spinlock/tree/master
+```
 
 #### Reporting Part 1 Results
 You should report in the following format and should match exactly as shown below. 
